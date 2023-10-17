@@ -1,0 +1,112 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tahoma";
+}
+body {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  background-color: #e3e3e3;
+}
+.background {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  position: relative;
+}
+.background .upper {
+  margin-top: 50px;
+  margin-left: 50px;
+  position: absolute;
+}
+.background .upper h1 {
+  margin-left: 50px;
+  position: relative;
+  white-space: nowrap;
+}
+.background .upper h4 {
+  margin-left: 50px;
+  position: relative;
+}
+.background .searchfiled {
+  margin-left: 100px;
+  margin-top: 200px;
+  position: relative;
+}
+.background .searchfiled input {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 900px;
+  border-radius: 5px;
+  border-color: aqua;
+  font-size: 20px;
+}
+.background .searchfiled input:hover {
+  background-color: #e8e8e8;
+  border-color: #0010f4;
+}
+.background .searchfiled a {
+  position: relative;
+  margin-left: -1190px;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+.background .poke-list {
+  margin-left: 100px;
+  position: relative;
+}
+.background .poke-list .pokemon_banner {
+  background-color: #c1ffff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  margin-right: 100px;
+  border-radius: 3px;
+  margin-bottom: 7px;
+}
+.background .poke-list .pokemon_banner li {
+  font-size: 18px;
+  position: relative;
+  top: -20px;
+  margin-left: 40px;
+  display: inline-block;
+}
+.background .poke-list .pokemon_banner .delete_Button {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 80%;
+  top: -50px;
+  background-color: #ff7575;
+}
+.background .poke-list .pokemon_banner .delete_Button:hover {
+  background-color: #a64545;
+}
+.background .poke-list .pokemon_banner img {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+.background .poke-list .pokemon_banner:hover {
+  background-color: #99cdcd;
+}
+.background .poke-list .pokemon_banner:hover img {
+  margin-right: -15px;
+  margin-bottom: -15px;
+  height: 125px;
+  width: 125px;
+  transition: 0.5s;
+  margin-left: -1%;
+  margin-top: -1%;
+}
+.background .poke-list .NF {
+  color: #d51010;
+}
