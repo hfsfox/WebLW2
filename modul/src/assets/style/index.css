@@ -1,0 +1,109 @@
+.main .window {
+  background-color: #d8d8d8;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.356);
+  margin-top: 80px;
+  margin-left: 350px;
+  margin-right: 500px;
+  padding-bottom: 20px;
+  padding-right: 450px;
+  padding-left: 50px;
+  border-radius: 5px;
+}
+.main .window .up {
+  background-color: #b0b0b0;
+  margin-left: -50px;
+  padding-right: 500px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.main .window .up ul {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: -30px;
+  display: flex;
+}
+.main .window .up ul li {
+  margin-right: 2px;
+  position: relative;
+  list-style: none;
+  display: flex;
+}
+.main .window .up ul li .red {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ff3232;
+}
+.main .window .up ul li .red:hover {
+  background-color: #b22020;
+}
+.main .window .up ul li .yellow {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fce434;
+}
+.main .window .up ul li .yellow:hover {
+  background-color: #a09120;
+}
+.main .window .up ul li .green {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #30f146;
+}
+.main .window .up ul li .green:hover {
+  background-color: #1c962a;
+}
+.main .container {
+  white-space: nowrap;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+.main .container .input-group .form-control {
+  padding-right: 23px;
+}
+.main .container .form-group-name {
+  white-space: nowrap;
+  margin-left: 220px;
+  position: relative;
+  top: -5px;
+}
+.main .container .form-group-name .form-control-name {
+  position: relative;
+  top: -35px;
+  margin-left: 65px;
+  margin-top: -10px;
+}
+.main .container .form-group-surname {
+  white-space: nowrap;
+  position: relative;
+  margin-left: 220px;
+  top: -35px;
+}
+.main .container .form-group-surname .form-control-surname {
+  position: relative;
+  top: -35px;
+  margin-left: 65px;
+  margin-top: -10px;
+}
+.main .container .form-group-list {
+  white-space: nowrap;
+  margin-top: -120px;
+}
+.main .container .form-group-list .form-control-list {
+  margin-top: -10px;
+  width: 200px;
+  height: 100px;
+}
+.main .container .btns {
+  margin-top: 10px;
+}
+.main .container .btns button {
+  margin-left: 5px;
+}
