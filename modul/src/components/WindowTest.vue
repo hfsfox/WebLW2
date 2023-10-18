@@ -95,7 +95,8 @@ export default {
       }
       const index = this.names.indexOf(this.selectedName);
       if (index !== -1) {
-        this.names[index] = newName;
+        //this.names[index] = newName;
+        this.$set(this.names,index, newName);
         this.status = 'Name has been updated!';
       }
     },
