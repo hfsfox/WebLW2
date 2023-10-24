@@ -1,0 +1,130 @@
+body {
+  width: 75%;
+  margin: auto;
+}
+
+.search-field {
+  display: block;
+
+  img {
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: -40px;
+    height: 30px;
+    width: 30px;
+  }
+  &:hover {
+
+    input {
+    background-color: rgb(229, 229, 229);
+    }
+  }
+}
+
+.field {
+  font-size: 20px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  outline: none;
+  transition: 0.3s;
+
+  &:focus {
+    border-color: #2980b9;
+  }
+}
+
+// .container {
+// }
+
+.container > ul > li {
+  padding: 0.5px 0;
+  border-top: 0;
+
+  > a {
+    display: block;
+    padding: 8px 15px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #cccccc;
+    }
+  }
+
+  > span {
+    display: block;
+    padding: 8px 15px;
+  }
+}
+
+.pokemons-list {
+  margin-top: 10px;
+}
+
+.list-pokemons-container {
+  background-color: rgb(227, 255, 255);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top: 5px;
+  margin-right: 0px;
+  border-radius: 3px;
+  margin-bottom: 7px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  li &:hover {
+    
+    img {
+        margin-right: -15px;
+        margin-bottom: -15px;
+        height: 120px;
+        width: 120px;
+        transition: 0.0s;
+        margin-left: -5%;
+        margin-top: -5%; 
+    }
+  }
+  &:hover {
+    background-color: rgb(210, 240, 240);
+  }
+}
+
+.element-flex {
+  font-size: 18px;
+  position: relative;
+  margin-left: 40px;
+  display: inline-block;
+
+  align-items: center;
+  display: flex;
+
+}
+
+.list-pokemons-element {
+  width: 30%;
+}
+
+.aboutButton {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(130, 245, 208);
+  border-radius: 5px;
+  margin-left: 50px;
+
+  &:hover {
+    background-color: rgb(103, 151, 136);
+  }
+}
+
+.not-found {
+  margin-top: 40px;
+  font-size: 30px;
+  color: #cd0f0f;
+}

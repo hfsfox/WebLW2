@@ -1,0 +1,15 @@
+.header {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.header .title {
+  color: #000000df;
+  font-weight: 500;
+  font-size: 32px;
+  user-select: none;
+}
+.header .counter-pokemons {
+  display: block;
+  padding-top: 8px;
+}

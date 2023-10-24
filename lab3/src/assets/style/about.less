@@ -1,0 +1,122 @@
+.pokemonName {
+    font-size: 19px;
+    font-style: italic;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemStatsPokemon {
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(167, 193, 189);
+    margin-bottom: 8px;
+    padding-left: 50px;
+    height: 30px;
+    width: 150px;
+
+}
+
+.pokeInfoContainer {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 238, 237);
+
+    .statsContainer {
+        margin-top: -180px;
+        margin-left: 200px;
+        margin-right: -50px;
+        .Poke4x2 {
+            display: flex;
+        }
+    }
+    // .statsContainer .Poke2x2 {
+    //     display: flex;
+    // }
+    .pokeImgContainer {
+        
+        img {
+            margin-top: 10px;
+            margin-left: -350px;
+            border-radius: 10px;
+            background-color: rgb(196, 196, 196);
+            height: 180px;
+            width: 180px;
+        }
+    }
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.deleteButton {
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+    border: 0px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-right: 12px;
+    background-color: #ff9387;
+
+
+    &:hover {
+    background-color: #b13f32;
+    }
+}
+
+.backButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-left: 12px;
+    background-color: #71cfab;
+
+
+    &:hover {
+    background-color: #257a5a;
+    }
+}
