@@ -1,0 +1,120 @@
+// index.css
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tahoma";
+}
+
+body {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  background-color: #e3e3e3
+}
+
+.background{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #fff;
+  position: relative;
+  
+  .upper {
+      margin-top: 50px;
+      margin-left: 50px;
+      position: absolute;
+      
+      h1 {
+          margin-left: 50px;
+          position: relative;
+          white-space: nowrap;
+      }
+      
+      h2 {
+          margin-left: 50px;
+          position: relative;
+      }
+  }
+
+  .search-wrapper {
+      margin-left: 100px;
+      margin-top: 200px;
+      position: relative;
+      input {
+          position: relative;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 40px;
+          padding-right: 900px;
+          border-radius: 5px;
+          border-color: aqua;
+          font-size: 20px;
+          &:hover {
+              background-color: #e8e8e8;
+              border-color: rgb(0, 16, 244);
+          }
+      }
+      a {
+          position: relative;
+          margin-left: -1190px;
+          padding-top: 20px;
+          margin-top: 50px;
+      }
+  }
+
+  .poke-list {
+      margin-left: 100px;
+      position: relative;
+      .pokemon_banner {
+          background-color: rgb(227, 255, 255);
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          margin-top: 5px;
+          margin-right: 100px;
+          border-radius: 3px;
+          margin-bottom: 7px;
+          li {
+              font-size: 18px;
+              position: relative;
+              top: -20px;
+              margin-left: 40px;
+              display: inline-block;
+          }
+          .delete_Button {
+              position: relative;
+              padding-left: 20px;
+              padding-right: 20px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              margin-left: 80%;
+              top: -50px;
+              background-color: rgb(255, 117, 117);
+              &:hover {
+                  background-color: rgb(166, 69, 69);
+              }
+          }
+          img {
+              position: relative;
+              height: 100px;
+              width: 100px;
+          }
+          &:hover {
+              img {
+                  margin-right: -15px;
+                  margin-bottom: -15px;
+                  height: 125px;
+                  width: 125px;
+                  transition: 0.5s;
+                  margin-left: -1%;
+                  margin-top: -1%; 
+              }
+              background-color: rgb(173, 211, 211);
+          }
+      }
+      .NF {
+          color: rgb(213, 16, 16);
+      }
+  }
+}
